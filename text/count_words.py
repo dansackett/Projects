@@ -18,7 +18,7 @@ def count_words(_file):
     counts = {}
     for word in text.split(' '):
         if word in counts.keys():
-            counts[word] = counts[word] + 1
+            counts[word] += 1
         else:
             counts[word] = 1
 
