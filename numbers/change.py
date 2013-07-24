@@ -50,14 +50,15 @@ def make_change(change):
                 break
 
     language = {
-        '1.00': 'dollars',
-        '.25': 'quarters',
-        '.10': 'dimes',
-        '.05': 'nickels',
-        '.01': 'pennies',
+        '1.00': 'dollar',
+        '.25': 'quarter',
+        '.10': 'dime',
+        '.05': 'nickel',
+        '.01': 'penny',
     }
 
-    formatted_change = ['{} {}'.format(amount, language[key])
+    formatted_change = ['{} {}'.format(amount, language[key] + 's')
+                        if amount > 1 else '{} {}'.format(amount, language[key])
                         for key, amount in change_dict.items() if amount]
 
     return formatted_change
