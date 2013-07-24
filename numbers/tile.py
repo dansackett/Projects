@@ -16,6 +16,6 @@ def tile():
     width = float(raw_input('How many square feet wide is the area?: '))
     height = float(raw_input('How many square feet high is the area?: '))
 
-    print 'At ${} per square foot per tile, a {}x{} area would cost ${}'.format(
+    print 'At ${0:.2f} per square foot per tile, a {}x{} area would cost ${0:.2f}'.format(
         cost, int(width), int(height), cost * width * height
     )
