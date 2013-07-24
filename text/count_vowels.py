@@ -6,16 +6,17 @@ For added complexity have it report a sum of each vowel found.
 Call By
 - python
 - from text.count_vowels import count_vowels
-- count_vowels('STRING')
+- count_vowels()
 
 """
 
 
-def count_vowels(string):
+def count_vowels():
+    string = raw_input('Enter a string to count the vowels from: ')
     vowels_dict = {vowel: 0 for vowel in ['a', 'e', 'i', 'o', 'u']}
     for letter in string:
         if letter in vowels_dict.keys():
-            vowels_dict[letter] = vowels_dict[letter] + 1
+            vowels_dict[letter] += 1
 
     for vowel, count in vowels_dict.items():
         if count:

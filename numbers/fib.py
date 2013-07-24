@@ -6,12 +6,13 @@ to that number or to the Nth number.
 Call By
 - python
 - from numbers.fib import fib
-- fib(number)
+- fib()
 
 """
 
 
-def fib(length):
+def fib():
+    length = int(raw_input('How many numbers of the fibonacci sequence would you like to see?: '))
     numbers = []
 
     while len(numbers) < length:

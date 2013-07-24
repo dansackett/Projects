@@ -5,10 +5,11 @@ Reverse a String
 Call By
 - python
 - from text.reverse import reverse
-- reverse('STRING')
+- reverse()
 
 """
 
 
-def reverse(string):
+def reverse():
+    string = raw_input('Enter a string to reverse: ')
     print string[::-1]

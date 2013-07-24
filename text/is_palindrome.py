@@ -6,12 +6,13 @@ That is that it reads the same forwards as backwards like "racecar"
 Call By
 - python
 - from text.is_palindrome import is_palindrome
-- is_palindrome('STRING')
+- is_palindrome()
 
 """
 
 
-def is_palindrome(string):
+def is_palindrome():
+    string = raw_input('Enter a string to check if it\'s a palindrome: ')
     reverse = string[::-1]
     if string == reverse:
         print '{} is a palindrome!'.format(string)

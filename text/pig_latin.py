@@ -20,12 +20,14 @@ the end of the word. Examples are:
 Call By
 - python
 - from text.pig_latin import pig_latin
-- pig_latin('STRING')
+- pig_latin()
 
 """
 
 
-def pig_latin(string):
+def pig_latin():
+    string = raw_input('Enter a string to turn into pig latin: ')
+
     cluster = []
     for letter in string:
         if not is_vowel(letter):

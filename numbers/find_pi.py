@@ -8,12 +8,14 @@ http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibpi.html#machin
 Call By
 - python
 - from numbers.find_pi import find_pi
-- find_pi(length)
+- find_pi()
 
 """
 from math import atan
 
 
-def find_pi(length):
+def find_pi():
+    length = int(raw_input('How many decimal places would you like to calculate pi?: '))
+
     _pi = 4 * (4 * (atan(1.0 / 5.0)) - atan(1.0 / 239.0))
     print ('{0:.%df}' % length).format(_pi)
