@@ -35,7 +35,7 @@ Numbers
 
 [**Binary to Decimal and Back Converter**](https://github.com/dansackett/Projects/blob/master/numbers/bin_dec.py) – Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-**Calculator** – A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+[**Calculator**](https://github.com/dansackett/Projects/blob/master/numbers/calc.py) – A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
 **Unit Converter (temp, currency, volume, mass and more)** – Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
@@ -45,7 +45,7 @@ Numbers
 
 [**Credit Card Validator**](https://github.com/dansackett/Projects/blob/master/numbers/cc_validator.py) – Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).
 
-**Tax Calculator** – Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
+[**Tax Calculator**](https://github.com/dansackett/Projects/blob/master/numbers/tax_calc.py) – Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.
 
 **Dijkstra’s Algorithm** – Create a program that finds the shortest path through a graph using its edges.
 
