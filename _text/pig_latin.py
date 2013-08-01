@@ -19,7 +19,7 @@ the end of the word. Examples are:
 
 Call By
 - python
-- from text.pig_latin import pig_latin
+- from _text.pig_latin import pig_latin
 - pig_latin()
 
 """

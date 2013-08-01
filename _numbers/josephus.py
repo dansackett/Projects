@@ -19,7 +19,7 @@ are removed), until only the last person remains, who is given freedom.
 
 Call By
 - python
-- from numbers.josephus import jospehus
+- from _numbers.josephus import jospehus
 - josephus()
 
 """

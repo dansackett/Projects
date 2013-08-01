@@ -5,7 +5,7 @@ to that number or to the Nth number.
 
 Call By
 - python
-- from numbers.fib import fib
+- from _numbers.fib import fib
 - fib()
 
 """

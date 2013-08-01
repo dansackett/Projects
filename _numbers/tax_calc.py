@@ -5,7 +5,7 @@ It then returns the tax plus the total cost with tax.
 
 Call By
 - python
-- from numbers.tax_calc import tax_calc
+- from _numbers.tax_calc import tax_calc
 - tax_calc()
 
 """

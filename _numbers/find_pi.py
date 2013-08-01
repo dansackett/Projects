@@ -7,7 +7,7 @@ http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibpi.html#machin
 
 Call By
 - python
-- from numbers.find_pi import find_pi
+- from _numbers.find_pi import find_pi
 - find_pi()
 
 """

@@ -13,7 +13,7 @@ that it is a valid number (look into how credit cards use a checksum).
 
 Call By
 - python
-- from numbers.cc_validator import validate
+- from _numbers.cc_validator import validate
 - validate()
 
 """

@@ -5,7 +5,7 @@ to its decimal equivalent.
 
 Call By
 - python
-- from numbers.bin_dec import converter
+- from _numbers.bin_dec import converter
 - converter()
 
 """

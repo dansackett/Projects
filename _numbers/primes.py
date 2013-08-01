@@ -5,7 +5,7 @@ for the next one.
 
 Call By
 - python
-- from numbers.primes import get_primes
+- from _numbers.primes import get_primes
 - get_primes()
 
 """

@@ -6,7 +6,7 @@ Solve this using both loops and recursion.
 
 Call By
 - python
-- from numbers.factorial import factorial
+- from _numbers.factorial import factorial
 - factorial()
 
 """

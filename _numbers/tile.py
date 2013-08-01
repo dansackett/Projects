@@ -5,7 +5,7 @@ of width and height, using a cost entered by the user.
 
 Call By
 - python
-- from numbers.tile import tile
+- from _numbers.tile import tile
 - tile()
 
 """

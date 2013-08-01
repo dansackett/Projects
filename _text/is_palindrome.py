@@ -5,7 +5,7 @@ That is that it reads the same forwards as backwards like "racecar"
 
 Call By
 - python
-- from text.is_palindrome import is_palindrome
+- from _text.is_palindrome import is_palindrome
 - is_palindrome()
 
 """

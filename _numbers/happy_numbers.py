@@ -10,7 +10,7 @@ Display an example of your output here. Find first 8 happy numbers.
 
 Call By
 - python
-- from numbers.happy_numbers import happy
+- from _numbers.happy_numbers import happy
 - happy()
 
 """

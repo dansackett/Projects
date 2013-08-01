@@ -4,7 +4,7 @@ Reverse a String
 
 Call By
 - python
-- from text.reverse import reverse
+- from _text.reverse import reverse
 - reverse()
 
 """

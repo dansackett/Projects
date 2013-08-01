@@ -5,7 +5,7 @@ Make it a scientific calculator for added complexity.
 
 Call By
 - python
-- from numbers.calc import calc
+- from _numbers.calc import calc
 - calc()
 
 """

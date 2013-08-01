@@ -5,7 +5,7 @@ For added complexity have it report a sum of each vowel found.
 
 Call By
 - python
-- from text.count_vowels import count_vowels
+- from _text.count_vowels import count_vowels
 - count_vowels()
 
 """

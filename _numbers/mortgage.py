@@ -17,7 +17,7 @@ understanding how this calculation works. Not a finance guy.
 
 Call By
 - python
-- from numbers.mortgage import mortgage
+- from _numbers.mortgage import mortgage
 - mortgage()
 
 """

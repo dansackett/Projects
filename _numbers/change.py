@@ -12,7 +12,7 @@ dimes, nickels, pennies needed for the change.
 
 Call By
 - python
-- from numbers.change import change
+- from _numbers.change import change
 - change()
 
 """

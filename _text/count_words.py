@@ -6,7 +6,7 @@ file and generate a summary.
 
 Call By
 - python
-- from text.count_words import count_words
+- from _text.count_words import count_words
 - count_words('text/test.txt')
 
 """

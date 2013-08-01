@@ -5,7 +5,7 @@ and display them.
 
 Call By
 - python
-- from numbers.prime_factorization import pf
+- from _numbers.prime_factorization import pf
 - pf(number)
 
 """
