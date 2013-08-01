@@ -28,7 +28,7 @@ Numbers
 
 [**Find Cost of Tile to Cover W x H Floor**](https://github.com/dansackett/Projects/blob/master/numbers/tile.py) – Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
-**Mortgage Calculator** – Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
+[**Mortgage Calculator**](https://github.com/dansackett/Projects/blob/master/numbers/mortgage.py) – Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
 [**Change Return Program**](https://github.com/dansackett/Projects/blob/master/numbers/change.py) – The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
@@ -51,6 +51,9 @@ Numbers
 **Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).
 
 [**Josephus Problem**](https://github.com/dansackett/Projects/blob/master/numbers/josephus.py) - In computer science and mathematics, the Josephus Problem (or Josephus permutation) is a theoretical problem related to a certain counting-out game. There are people standing in a circle waiting to be executed. The counting out begins at some point in the circle and proceeds around the circle in a fixed direction. In each step, a certain number of people are skipped and the next person is executed. The elimination proceeds around the circle (which is becoming smaller and smaller as the executed people are removed), until only the last person remains, who is given freedom.
+
+[**Happy Numbers**](https://github.com/dansackett/Projects/blob/master/numbers/happy_numbers.py) - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
+
 
 Text
 ---------
