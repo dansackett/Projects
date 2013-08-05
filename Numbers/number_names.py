@@ -8,9 +8,7 @@ Support for inputs other than positive integers (like zero, negative
 integers, and floating-point numbers).
 
 Call By
-- python
-- from _numbers.number_names import number_names
-- number_names()
+- python number_names.py
 
 """
 
@@ -126,3 +124,7 @@ def create_millions(number):
         return uniques[first] + ' million'
     else:
         return uniques[first] + ' million ' + create_hundred_thousands(last)
+
+
+if __name__ == '__main__':
+    number_names()
