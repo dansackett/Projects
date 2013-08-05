@@ -1,19 +1,15 @@
-Martyr2’s Mega Project List
+Programming Project List
 ========
 
-Trying to complete a lot of the projects from [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
+I saw this project on GitHub and loved the idea of applying my Python knowledge to it. This is both practice and learning for me as I try and take on each problem with a fresh slate. A lot of the problems come from [Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/) while some others have appeared from other sources or my own mind. Feel free to follow along and fork this repo to work on the problems yourself.
 
-Some details:
+Some points:
 
-- I'll be doing this in Python.
+- I chose to do all of these in Python to explore the language even further and see how far I can push it.
 - I may not be able to complete all of these.
-- I will link to my progress in the README.
-- I'm going to have fun with these.
-- This is practice.
+- Some of my solutions may not be ideal or the "best way". I'd love to hear ideas on how you'd do this since this is a learning exercise for me. Open an issue and let me know.
 - I've deleted some that didn't inerest me.
 
-
-==============================
 
 Numbers
 ---------
