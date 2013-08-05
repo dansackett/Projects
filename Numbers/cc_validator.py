@@ -12,16 +12,12 @@ that it is a valid number (look into how credit cards use a checksum).
     valid.
 
 Call By
-- python
-- from _numbers.cc_validator import validate
-- validate()
+- python cc_validator.py
 
 """
 
 
-def cc_validator():
-    cc_num = raw_input('Enter your credit card number to validate: ')
-
+def cc_validator(cc_num):
     # I add 0 to the front of the cc number to give it 17 digits making the
     # doubling work correctly from the back
     doubled = [int(x) if i % 2 == 0 else int(x) + int(x)
@@ -36,3 +32,9 @@ def cc_validator():
         print 'This card is valid!'
     else:
         print 'This card is not valid!'
+
+
+if __name__ == '__main__':
+    cc_num = raw_input('Enter your credit card number to validate: ')
+
+    cc_validator(cc_num)

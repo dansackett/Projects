@@ -16,9 +16,7 @@ NOTE:
 understanding how this calculation works. Not a finance guy.
 
 Call By
-- python
-- from _numbers.mortgage import mortgage
-- mortgage()
+- python mortgage.py
 
 """
 
@@ -35,3 +33,7 @@ def mortgage():
     monthly_payment = principal * ((monthly_interest * term_rate) / (term_rate - 1))
 
     print 'You will pay ${0:.2f} per month.'.format(monthly_payment)
+
+
+if __name__ == '__main__':
+    mortgage()

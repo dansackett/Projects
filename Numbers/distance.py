@@ -12,9 +12,7 @@ It uses the Haversine formula to find an approximate distance between the points
 - http://en.wikipedia.org/wiki/Haversine_formula
 
 Call By
-- python
-- from _numbers.distance import distance
-- distance()
+- python distance.py
 
 """
 from geopy import geocoders
@@ -62,3 +60,7 @@ def distance():
 
     except (ValueError, geocoders.base.GeocoderError):
         print 'We couldn\'t find one of those locations!'
+
+
+if __name__ == '__main__':
+    distance()

@@ -9,9 +9,7 @@ while those that do not end in 1 are unhappy numbers.
 Display an example of your output here. Find first 8 happy numbers.
 
 Call By
-- python
-- from _numbers.happy_numbers import happy
-- happy()
+- python happy_numbers.py
 
 """
 
@@ -48,3 +46,7 @@ def is_happy(number):
         return False
     elif dig_sum > 1:
         return is_happy(dig_sum)
+
+
+if __name__ == '__main__':
+    happy()

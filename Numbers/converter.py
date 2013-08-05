@@ -8,9 +8,7 @@ TODO: More Conversions
 - Add volume and mass conversions
 
 Call By
-- python
-- from _numbers.converter import converter
-- converter()
+- python converter.py
 
 """
 
@@ -79,7 +77,7 @@ def convert_currency():
         'p': 'mexican pesos',
     }
 
-    amount = int(raw_input('What is the number amount of money?: '))
+    amount = float(raw_input('What is the number amount of money?: '))
 
     print '\nUse one of the following letters to denote the currency:'
     for letter, word in language.items():
@@ -131,3 +129,7 @@ def convert_volume():
 
 def convert_mass():
     pass
+
+
+if __name__ == '__main__':
+    converter()

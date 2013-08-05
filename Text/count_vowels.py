@@ -4,9 +4,7 @@ Count Vowels
 For added complexity have it report a sum of each vowel found.
 
 Call By
-- python
-- from _text.count_vowels import count_vowels
-- count_vowels()
+- python count_vowels.py
 
 """
 
@@ -21,3 +19,7 @@ def count_vowels():
     for vowel, count in vowels_dict.items():
         if count:
             print '{} appeared {} times.'.format(vowel, count)
+
+
+if __name__ == '__main__':
+    count_vowels()

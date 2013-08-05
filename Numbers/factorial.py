@@ -5,9 +5,7 @@ sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1.
 Solve this using both loops and recursion.
 
 Call By
-- python
-- from _numbers.factorial import factorial
-- factorial()
+- python factorial.py
 
 """
 
@@ -28,3 +26,7 @@ def factorial():
             total *= x
         print '\n{}! = {}'.format(number, factorial_string)
         print '\nThe factorial of {} equals {}.'.format(number, total)
+
+
+if __name__ == '__main__':
+    factorial()

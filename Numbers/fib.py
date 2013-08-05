@@ -4,9 +4,7 @@ Fibonacci Sequence
 to that number or to the Nth number.
 
 Call By
-- python
-- from _numbers.fib import fib
-- fib()
+- python fib.py
 
 """
 
@@ -25,3 +23,7 @@ def fib():
             numbers.append(0)
 
     print ', '.join([str(n) for n in numbers])
+
+
+if __name__ == '__main__':
+    fib()

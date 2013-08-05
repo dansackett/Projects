@@ -6,9 +6,7 @@ Keep a limit to how far the program will go.
 http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibpi.html#machin
 
 Call By
-- python
-- from _numbers.find_pi import find_pi
-- find_pi()
+- python find_pi.py
 
 """
 from math import atan
@@ -19,3 +17,7 @@ def find_pi():
 
     _pi = 4 * (4 * (atan(1.0 / 5.0)) - atan(1.0 / 239.0))
     print ('{0:.%df}' % length).format(_pi)
+
+
+if __name__ == '__main__':
+    find_pi()

@@ -4,9 +4,7 @@ Find Cost of Tile to Cover W x H Floor
 of width and height, using a cost entered by the user.
 
 Call By
-- python
-- from _numbers.tile import tile
-- tile()
+- python tile.py
 
 """
 
@@ -19,3 +17,7 @@ def tile():
     print 'At ${0:.2f} per square foot per tile, a {}x{} area would cost ${0:.2f}'.format(
         cost, int(width), int(height), cost * width * height
     )
+
+
+if __name__ == '__main__':
+    tile()

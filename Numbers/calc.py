@@ -4,18 +4,12 @@ Calculator
 Make it a scientific calculator for added complexity.
 
 Call By
-- python
-- from _numbers.calc import calc
-- calc()
+- python calc.py
 
 """
 
 
-def calc():
-    print 'Welcome to the calculator!'
-
-    operation = raw_input('What operation would you like to perform? (+, -, *, /, ^2): ')
-
+def calc(operation):
     if operation == '^2':
         number = int(raw_input('Enter a number to square: '))
         print '{} squared is {}'.format(number, number ** 2)
@@ -33,3 +27,11 @@ def calc():
             print 'The quotient is {}'.format(number1 / number2)
     else:
         print 'I\'m sorry, we don\'t support that operation'
+
+
+if __name__ == '__main__':
+    print 'Welcome to the calculator!'
+
+    operation = raw_input('What operation would you like to perform? (+, -, *, /, ^2): ')
+
+    calc(operation)

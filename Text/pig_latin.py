@@ -18,9 +18,7 @@ the end of the word. Examples are:
 "eight" -> "eightway"
 
 Call By
-- python
-- from _text.pig_latin import pig_latin
-- pig_latin()
+- python pig_latin.py
 
 """
 
@@ -43,3 +41,7 @@ def pig_latin():
 
 def is_vowel(letter):
     return letter in ['a', 'e', 'i', 'o', 'u']
+
+
+if __name__ == '__main__':
+    pig_latin()

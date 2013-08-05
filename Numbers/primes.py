@@ -4,9 +4,7 @@ Next Prime Number
 for the next one.
 
 Call By
-- python
-- from _numbers.primes import get_primes
-- get_primes()
+- python primes.py
 
 """
 
@@ -38,3 +36,7 @@ def next_prime(number):
 
 def is_prime(number):
     return len([n for n in range(1, number + 1) if number % n == 0]) == 2
+
+
+if __name__ == '__main__':
+    get_primes()

@@ -18,9 +18,7 @@ are removed), until only the last person remains, who is given freedom.
 - This continues until only one person remains.
 
 Call By
-- python
-- from _numbers.josephus import jospehus
-- josephus()
+- python josephus.py
 
 """
 
@@ -55,3 +53,7 @@ def reduce_people(num_people, skips):
             return skips - 1
         else:
             skips = skips - num_people
+
+
+if __name__ == '__main__':
+    josephus()

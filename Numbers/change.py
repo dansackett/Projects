@@ -11,17 +11,12 @@ dimes, nickels, pennies needed for the change.
     1 dollar is given. Not sure what is wrong.
 
 Call By
-- python
-- from _numbers.change import change
-- change()
+- python change.py
 
 """
 
 
-def change():
-    cost = float(raw_input('What is the cost?: $'))
-    given = float(raw_input('How much are you paying?: $'))
-
+def change(cost, given):
     if given > cost:
         change = given - cost
         change_list = make_change(change)
@@ -62,3 +57,10 @@ def make_change(change):
                         for key, amount in change_dict.items() if amount]
 
     return formatted_change
+
+
+if __name__ == '__main__':
+    cost = float(raw_input('What is the cost?: $'))
+    given = float(raw_input('How much are you paying?: $'))
+
+    change(cost, given)

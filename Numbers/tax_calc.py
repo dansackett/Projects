@@ -4,9 +4,7 @@ Tax Calculator
 It then returns the tax plus the total cost with tax.
 
 Call By
-- python
-- from _numbers.tax_calc import tax_calc
-- tax_calc()
+- python tax_calc.py
 
 """
 
@@ -21,3 +19,7 @@ def tax_calc():
 
     print '\nRight, so the tax will be ${0:.2f}.'.format(tax)
     print 'The total cost will be ${0:.2f}.'.format(cost + tax)
+
+
+if __name__ == '__main__':
+    tax_calc()

@@ -4,9 +4,7 @@ Check if Palindrome
 That is that it reads the same forwards as backwards like "racecar"
 
 Call By
-- python
-- from _text.is_palindrome import is_palindrome
-- is_palindrome()
+- python is_palindrome.py
 
 """
 
@@ -18,3 +16,7 @@ def is_palindrome():
         print '{} is a palindrome!'.format(string)
     else:
         print '{} is not a palindrome.'.format(string)
+
+
+if __name__ == '__main__':
+    is_palindrome()
